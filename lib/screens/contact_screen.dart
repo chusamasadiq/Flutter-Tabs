@@ -26,7 +26,7 @@ class _ContactScreenState extends State<ContactScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             TextFieldWidget(
-              hintText: 'Full Name',
+              hintText: 'Full name',
               preIcon: Icons.person,
               controller: _fullnameController,
             ),
